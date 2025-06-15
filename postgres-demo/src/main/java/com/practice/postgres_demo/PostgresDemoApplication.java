@@ -22,11 +22,11 @@ public class PostgresDemoApplication {
         updateTheTable();
         delFromTheTable();
         problemWithStatement();
-        prepardStatement();
+        preparedStatement();
 
     }
 
-    private static void prepardStatement() throws SQLException {
+    private static void preparedStatement() throws SQLException {
         String url = "jdbc:postgresql://localhost:5432/demo";
         String username = "postgres";
         String password = "rekhAjay@0907";
